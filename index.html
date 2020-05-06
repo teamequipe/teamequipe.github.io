@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-    <title>GoC Folding@Home</title>
+    <title>Fold The North - Team GOC</title>
     <meta content="width=device-width,initial-scale=1" name="viewport">
     <!-- Meta data -->
     <meta name="description"
@@ -33,7 +33,7 @@
         var defTop = document.getElementById("def-top");
         defTop.outerHTML = wet.builder.appTop({
             "appName": [{
-                "text": "GoC Folding@Home",
+                "text": "Fold The North - Team GOC",
                 "href": "https://teamequipe.github.io/index.html"
             }],
            "breadcrumbs" : [{
@@ -48,32 +48,36 @@
         });
     </script>
     <main role="main" property="mainContentOfPage" class="container">
-        <h1 property="name" id="wb-cont">GoC Folding@Home</h1>
-
-        <section>
+		<section>
+			<center>
+			    <img src="./images/logo-tight.png" alt="Fold the North, TEAM GOC" width="100%"/>
+			</center>    
+		</section>
+		<section id="tldr">
+			<h2>TL;DR</h2>
+			<p>Help us fight COVID-19 by donating your computer’s spare power to Folding@Home! If you have already installed Folding@Home, <a href="./guide.html#join">click here to jump to "Joining Team GOC"</a>. </p>
+		</section>
+		<section id="about">
 			<h2>About Team Equipe GOC</h2>
 			<p>A ragtag bunch of Public Servants in the Government of Canada lending their personal computers to Folding@Home; helping find a COVID-19 vaccine by modeling protein molecules.</p>
-			<p><img class="img-responsive" src="./images/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f64567579426771327a356756426b467444632f736f757263652e676966.gif" alt=""></p>
-			<p>Anyone with a computer can join the fight. For a simple tutorial go to <a href="https://foldingathome.org/start-folding/">Start Folding</a> or checkout the <a href="#getting-started">Getting Started</a> section below.</p>
-			<p><img src="images/coronavirus.png" alt=""></p>
 		</section>
-		<section>
+		<section id="what">
 			<h2>What is Folding?</h2>
 			<blockquote cite="https://foldingathome.org/about/">
 				<p>"Folding@home (FAH or F@h) is a distributed computing project for simulating protein dynamics, including the process of protein folding and the movements of proteins implicated in a variety of diseases. It brings together citizen scientists who volunteer to run simulations of protein dynamics on their personal computers. Insights from this data are helping scientists to better understand biology, and providing new opportunities for developing therapeutics." </p>
 				<footer><a href="https://foldingathome.org/about/">foldingathome.org</a></footer>
 			</blockquote>
 		</section>
-		<section>
+    		<section id="help">
 			<h2>How does folding Help Tackle COVID-19?</h2>
 			<blockquote>
 				<p>"<a href="https://foldingathome.org/start-folding/">Downloading Folding@home</a> and helping us run simulations is the primary way to contribute. These calculations are enormous and every little bit helps! Each simulation you run is like buying a lottery ticket. The more tickets we buy, the better our chances of hitting the jackpot." </p>
 			</blockquote>
 			<p>Learn more about <a href="https://foldingathome.org/covid19/">Folding for COVID-19</a></p>
 		</section>
-		<section>
-			<h2>Getting Started Quickly</h2>
-			<p>For those new to community cumputing projects or for those who just want to get up and going quickly we have broken down the steps to get started. If you runn into issues feel free to <a href="#contact-us">Contact Us</a></p>
+		<section id="#quick">
+			<h2>Getting Started</h2>
+			<p>For those new to distributed computing projects or for those who just want to get up and going quickly we have broken down the steps to get started. If you runn into issues feel free to <a href="#contact">Contact Us</a></p>
 			<ol>
 				<li>Learn about "<a href="https://foldingathome.org/2020/03/30/covid-19-free-energy-calculations/">protein folding</a>" for COVID-19</li>
 				<li>Start by <a href="https://foldingathome.org/start-folding/">downloading the folding software</a></li>
@@ -81,30 +85,16 @@
 				<li>Then join the <a href="https://stats.foldingathome.org/team/247377">Team Equipe GOC #247377</a> team</li>
 				<li>Finaly follow your progress and manage your <a href="/teamequipe/teamequipe/blob/master/client.foldingathome.org">local folding client</a></li>
 				</ol>
+			<p>For a detailed install guide, please follow our guide <a href="./guide.html">here</a>. </p>
 		</section>
-		<section>
-			<h2>Tips for Managing Resources Between Working and Folding</h2>
-			<ol>
-				<li>Experiment with the POWER and WHEN settings the fit your situation best.</li>
-				<li>For the least hastle and best performance set the client to "Full Power" and "Only when Idle"</li>
-				<li>Leave you computer running even when you are not using it but turn the monitors off. This will decrease energy consumption.</li>
-				<li>Turn off any screen savers you might have, this frees up more compute power for Folding.</li>
-				<li>If you are going to be leaving your computer for a long time set the client to "Full Power" and "while I am working"</li>
-				<li>If you are starting your workday and worried about competing resources you can choose "Stop Folding", but consider the option to "Finish up folding, then stop". This works well if you have 30 min left of folding to finsih the Work Unit.</li>
-				<li>In the client note the "My computer has X days to complete this work unit". If you shutdown or stop folding, X is the length of time you have to complete the work unit. If you miss this cut off, you might not get the points and the job will be passed to someone else.</li>
-				</ol>
-		</section>
-		<section>
-			<h2>Join the Team</h2>
-			<p>One you are up and running, be sure to join the Team Equipe GOC by configuring your Folding@Home client with our Team ID # <strong>247377</strong></p>
-			<p><img src="./images/68747470733a2f2f692e696d6775722e636f6d2f775a4c494252572e706e67.png" alt="Screenshot of team ID entry page" /></p>
-		</section>
-		<section>
+		<section id="stats">
 			<h2>Team Stats</h2>
+			<p><a href="https://stats.foldingathome.org/team/247377">Team Members</a></p>
 			<p>Check out how the team is doing compared to other folding teams. You can also track your contributions in the team leaderboard.</p>
-			<p><a href="https://stats.foldingathome.org/team/247377">Detailed Team Stats</a></p>
+			<p><a href="https://folding.extremeoverclocking.com/team_summary.php?s=&t=247377"><img src="./images/production_day.jpg" width="80%" alt="Line graph showing team progress accelerating upward" /><a/></p>
+			<p><a href="https://folding.extremeoverclocking.com/team_summary.php?s=&t=247377">Detailed Stats</a></p>
 		</section>
-		<section>
+		<section id="support">
 			<h2>Community Support</h2>
 			<p>If you get stuck on the above instructions or just want to engage with the Team Equipe GOC team consider joining GCcollab and join the #covid-folding channel in GCmessage.Here is how.</p>
 			<ol>
@@ -115,12 +105,12 @@
 				<li>OPTIONAL: download <a href="https://rocket.chat/" rel="nofollow">Rocket Chat desktop client</a> and [connect it to GCmessage]</li>
 				</ol>
 		</section>
-		<section>
+		<section id="contact">
 			<h2>Contact Us</h2>
 			<p><a href="mailto:contact@foldthenorth.ca">contact@foldthenorth.ca</a></p>
-			<img src="./images/are_you_folding.png" alt="Are you folding?">
 		</section>
 
+	    
         <div id="def-preFooter"></div>
         <script src="./scripts/preFooter.js"></script>
     </main>
@@ -128,5 +118,4 @@
     <script src="./scripts/appFooter.js"></script>
     <script src="./scripts/refFooter.js"></script>
 </body>
-    
 </html>
