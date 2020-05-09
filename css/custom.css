@@ -1,0 +1,39 @@
+#wb-bnr {
+	background: linear-gradient(#ffb160,#0059ce);
+}
+
+#wb-bnr .container:nth-child(2) {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#wb-sttl img, #wb-sttl object {
+	width: 50px;
+	height: auto;
+	left:-20px;
+	position: relative;
+}
+
+#wb-sttl {
+	padding-left: 30px;
+}
+
+@media (min-width: 768px) {
+	#wb-sttl {
+		/* padding-left: 0px; */
+	}
+	
+	#wb-sttl img, #wb-sttl object {
+		width: 75px;
+		height: auto;
+		left:-20px;
+		position: relative;
+	}
+}
+
+
+@media (min-width: 991px) { 
+	#wb-sm {
+		background: #024bab;
+	}
+}

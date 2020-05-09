@@ -3,87 +3,107 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en" dir="ltr">
 <!--<![endif]-->
+
 <head>
     <meta charset="utf-8">
     <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-    <title>Fold The North - Team GOC</title>
+    <title>Fold The North - Guide</title>
     <meta content="width=device-width,initial-scale=1" name="viewport">
     <!-- Meta data -->
-    <meta name="description"
-        content="A ragtag bunch of Public Servants in the Government of Canada lending their personal computers to Folding@Home; helping find a COVID-19 vaccine by modeling protein molecules.">
+    <meta name="description" content="A ragtag bunch of Public Servants in the Government of Canada lending their personal computers to Folding@Home; helping find a COVID-19 vaccine by modeling protein molecules.">
     <!-- Meta data-->
-    <!-- Load closure template scripts -->
-    <script src="https://ssl-templates.services.gc.ca/rn/cls/wet/gcweb/cdts/compiled/soyutils.js"></script>
-    <script src="https://ssl-templates.services.gc.ca/rn/cls/wet/gcweb/cdts/compiled/wet-en.js"></script>
-    <!-- Write closure template -->
-
-	<script src="./scripts/refTop.js"></script>
-	<style>
-		#wb-bnr img, #wb-info {
-			display: none;
-		}
-	</style>
+    <link href="./assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="./css/theme.min.css" />
+	<link rel="stylesheet" href="./css/custom.css">
 </head>
 
-<body vocab="https://schema.org/" typeof="WebPage">
-    <div id="def-top">
-    </div>
-    <!-- Write closure template -->
-    <script>
-        var defTop = document.getElementById("def-top");
-        defTop.outerHTML = wet.builder.appTop({
-            "appName": [{
-                "text": "Fold The North - Team GOC",
-                "href": "https://teamequipe.github.io/index.html"
-            }],
-           "breadcrumbs" : [{
-                "title": "Home",
-                "href" : "https://teamequipe.github.io/index.html"
-            }]
-            // "lngLinks": [{
-            //     "lang": "fr",
-            //     "href": "./index-fr.html",
-            //     "text": "Français"
-            // }],
-        });
-    </script>
+<body vocab="http://schema.org/" typeof="WebPage">
+
+    <nav>
+        <ul id="wb-tphp">
+            <li class="wb-slc">
+                <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+            </li>
+        </ul>
+	</nav>
+	
+    <header role="banner">
+        <div id="wb-bnr">
+            <div id="wb-bar">
+                <div class="container">
+                    <div class="row">
+                        <section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
+                            <h2>Menu</h2>
+                            <ul class="pnl-btn list-inline text-right">
+                                <li><a href="#mb-pnl" title="Menu" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Menu</span></span></a></li>
+                            </ul>
+                            <div id="mb-pnl"></div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div id="wb-sttl" class="col-md-8">
+                        <a href="./index.html">
+                            <img src="./assets/logo.png" alt="">
+                            <span>Fold The North - Team GOC
+								<!-- <span class="wb-inv">, </span><small>subTitle</small></span> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav role="navigation" id="wb-sm" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+            <div class="container nvbar">
+                <h2>Topics menu</h2>
+                <div class="row">
+                    <ul class="list-inline menu">
+                        <li><a href="./index.html">Project</a></li>
+                        <li><a href="./guide.html">Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+	
+
     <main role="main" property="mainContentOfPage" class="container">
-		<section>
-					    <p><img src="./images/logo-tight.png" alt="Fold the North, TEAM GOC" width="50%"/>
-              <h1>Guide</h1>   </p>
-		</section>
+					   
+		<h1 id="wb-cont" property="name">Guide</h1>
+
 		<section id="install">
 			<h2>Installing Folding@Home (Windows) Tutorial</h2>
 			<p>1. Open your web browser and navigate to: <a href="https://foldingathome.org">foldingathome.org</a> </p>
-			<p><img src="./images/Folding-at-Home-Home-Page.png" width="100%" alt="In your web browser, wait for the folding at home page to finish loading" /></p>
+			<p><img src="./images/Folding-at-Home-Home-Page.png" class="img-responsive" alt="In your web browser, wait for the folding at home page to finish loading" /></p>
 			<p>2. Click the “Start Folding Now” button </p>
-			<p><img src="./images/Start-Folding-Now-Button.png" width="100%" alt="In the loaded webpage, click the 'Start folding now' button" /></p>
+			<p><img src="./images/Start-Folding-Now-Button.png" class="img-responsive" alt="In the loaded webpage, click the 'Start folding now' button" /></p>
 			<p>3. Click “Download Now” in blue </p>
-			<p><img src="./images/Download-Now-Button.png" width="100%" alt="The webpage will jump to the download section, click the 'Download Now' button" /></p>
+			<p><img src="./images/Download-Now-Button.png" class="img-responsive" alt="The webpage will jump to the download section, click the 'Download Now' button" /></p>
 			<p>4. Under “Windows”, choose the “fah_installer” to download Folding@Home </p>
-			<p><img src="./images/FAH-Download-Link.png" width="100%" alt="the browser will got the download page. Download the file called 'fah_installer.exe' executable"/></p>
+			<p><img src="./images/FAH-Download-Link.png" class="img-responsive" alt="the browser will got the download page. Download the file called 'fah_installer.exe' executable"/></p>
 			<p>5. Once the download has completed, open the downloaded file to run the Folding@Home installer </p>
-			<p><img src="./images/FAH-Downloaded-File.png" width="100%" alt="Once downloaded, run/launch the executable"/></p>
+			<p><img src="./images/FAH-Downloaded-File.png" class="img-responsive" alt="Once downloaded, run/launch the executable"/></p>
 			<p>6. Click “Next” to proceed </p>
-			<p><img src="./images/FAH-Setup-Screen-Next.png" width="100%" alt="The Executable has started, on the first prompt click 'Next' in the installer"/></p>
+			<p><img src="./images/FAH-Setup-Screen-Next.png" class="img-responsive" alt="The Executable has started, on the first prompt click 'Next' in the installer"/></p>
 			<p>7. Read and, if you agree, choose “I Agree” </p>
-			<p><img src="./images/FAH-Terms-and-Conditions.png" width="100%" alt="Click 'I agree'  in the installer"/></p>
+			<p><img src="./images/FAH-Terms-and-Conditions.png" class="img-responsive" alt="Click 'I agree'  in the installer"/></p>
 			<p>8. Leave the default option “Express Install (Recommended)” selected and click “Next” </p>
-			<p><img src="./images/FAH-Express-Install.png" width="100%" alt="Select 'Express Installation' in the installer"/></p>
+			<p><img src="./images/FAH-Express-Install.png" class="img-responsive" alt="Select 'Express Installation' in the installer"/></p>
 			<p>9. Once the installation has completed, make sure “Start Folding@Home” is checked and click “Finish” </p>
-			<p><img src="./images/FAH-Installation-Complete.png" width="100%" alt="Tick the 'Start Folding@Home' checkbox and click the 'Finish' button"/></p>
+			<p><img src="./images/FAH-Installation-Complete.png" class="img-responsive" alt="Tick the 'Start Folding@Home' checkbox and click the 'Finish' button"/></p>
 	   		<footer><a href="https://support.sudomemo.net/join-sudomemo-fah/">Tutorial provided by Sudomemo </a></footer>
 	    </section>	
 	    <section id="join">
 			<h2>Joining Team GOC</h2>
 			<p>1. When your browser reopens, choose “Set up an identity”, then “Start Folding”</p>
-			<p><img src="./images/Start-Folding-Buttons.png" width="100%" alt="A browser window will open to the Folding at home control panel. Select 'Set up an identity' and click the 'Start Folding' button"/></p>
+			<p><img src="./images/Start-Folding-Buttons.png" class="img-responsive" alt="A browser window will open to the Folding at home control panel. Select 'Set up an identity' and click the 'Start Folding' button"/></p>
 		   	<p>2. Under “Name”, enter your UserName. Under "Team Number" enter <strong>247377</strong>, then click "Save" </p>
-			<p><img src="./images/7R5TifI.png" width="100%" alt="In the username box, enter a Username. In the Team Number box, enter the Team id '247377'. Click the 'Save' button "/></p>
+			<p><img src="./images/7R5TifI.png" class="img-responsive" alt="In the username box, enter a Username. In the Team Number box, enter the Team id '247377'. Click the 'Save' button "/></p>
 		   	<p>3. Under “I support research fighting”, open the dropdown and choose "COVID-19"</p>
-			<p><img src="./images/COVID-19-Selections.png" width="100%" alt="At the Folding at home control panel, in the 'I support research fighting' dropdown, select 'COVID-19'"/></p>
+			<p><img src="./images/COVID-19-Selections.png" class="img-responsive" alt="At the Folding at home control panel, in the 'I support research fighting' dropdown, select 'COVID-19'"/></p>
 		   	<p>4. That’s it! You are now part of TEAM GOC folding team!</p>
-			<p><img src="./images/f5fl72H.png" width="100%" alt="Thats It, Your folding machine is done"/></p>
+			<p><img src="./images/f5fl72H.png" class="img-responsive" alt="Thats It, Your folding machine is done"/></p>
 		    <footer><a href="https://support.sudomemo.net/join-sudomemo-fah/">Tutorial provided by Sudomemo </a></footer>
 	    	</section>	
 		<section id="tips">
@@ -99,11 +119,36 @@
 				</ol>
 		</section>
     
-        <div id="def-preFooter"></div>
-        <script src="./scripts/preFooter.js"></script>
-    </main>
-    <div id="def-footer"></div>
-    <script src="./scripts/appFooter.js"></script>
-    <script src="./scripts/refFooter.js"></script>
-</body>
-</html>
+		<dl id="wb-dtmd">
+			<dt>Date modified:&#32;</dt>
+			<dd><time property="dateModified">2020-05-09</time></dd>
+		</dl>
+		
+		</main>
+		
+		<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
+			<div class="container">
+				<nav role="navigation" class="row">
+					<h2>About this site</h2>
+					<section class="col-sm-3">
+						<h3>Contact us</h3>
+						<ul class="list-unstyled">
+							<li><a href="mailto:contact@foldthenorth.ca">contact@foldthenorth.ca</a></li>
+						</ul>
+					</section>
+					<section class="col-sm-3">
+						<h3>Stay connected</h3>
+						<ul class="list-unstyled">
+							<li><a rel="external" href="https://twitter.com/">Twitter</a></li>
+						</ul>
+					</section>
+				</nav>
+			</div>
+		</footer>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="./js/wet-boew.min.js"></script>
+	
+	</body>
+	
+	</html>
